@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.displayKeyboard{
+    width: 500px;
+    height: 100px;
+    resize: none;
+    margin: 70px 0;
+}
+.rowKeyboard{
+    width: 750px;
+    border: 2px solid black;
+
+}
+
+.button{
+    width:  40px;
+    height: 40px;
+    border: 1px solid yellow;
+    color: white;
+    background: slategray;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+}
+
+#Space{
+    width: 340px;
+    background: #393052;
+}
+#Shift{
+    width: 90px;
+    background: #393052;
+}
+#Backspace{
+    background: #393052;
+    width: 90px;
+}
+#Enter{
+    background: #393052;
+    width: 90px;
+}
+#CapsLock{
+    width: 90px;
+    background: #393052;
+}
+#Tab{
+    background: #393052;
+}
+#ctrl{
+    background: #393052;
+}
+#win{
+    background: #393052;
+}
+#alt{
+    background: #393052;
+}
+#↓{
+    background: #393052;
+}
+#↑{
+    background: #393052;
+}
+#→{
+    background: #393052;
+}
+#←{
+    background: #393052;
+}
+#Del{
+    background: #393052;
+}
+.button:active{
+    cursor: pointer;
+    transform: rotate(5deg);
+    background: yellow;
+}
